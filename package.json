@@ -1,6 +1,11 @@
 {
-  "name": "",
+  "name": "hello_world",
   "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "scripts": {
+    "start": "node app"
+  },
   "dependencies": {
     "consign": "^0.1.6",
     "ejs": "^2.5.9",
