@@ -1,0 +1,9 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3"
+  }
+}
