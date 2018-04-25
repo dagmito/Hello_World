@@ -1,6 +1,6 @@
 module.exports = function(app){
 
-    app.get('/', function () {
+    app.get('/', function (request, response) {
         response.redirect('/index');
     });
     
