@@ -1,10 +1,8 @@
-module.exports = function(app){
-
-    app.get('/', function (request, response) {
-        response.redirect('/index');
-    });
+module.exports = function (app) {
     
-    app.get('/index', function (request, response) {
-        response.render('index');
-    });
+    controller = app.controller.hello;
+
+    app.get('/', controller.void);
+    app.get('/index', controller.index);
+
 }
